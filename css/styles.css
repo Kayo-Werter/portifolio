@@ -1,8 +1,3 @@
-/* ============================================
-   KAYO WERTER — Landing Page
-   Design System & Styles
-   ============================================ */
-
 /* --- CSS Variables --- */
 :root {
   /* Colors */
@@ -518,7 +513,8 @@ ul {
 }
 
 .code-window__body pre {
-  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 .code--keyword { color: #c792ea; }
